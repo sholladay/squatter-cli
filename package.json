@@ -1,0 +1,49 @@
+{
+    "name": "squatter-cli",
+    "version": "0.0.0",
+    "description": "Check if a namespace on npm is being hogged.",
+    "homepage": "https://github.com/sholladay/squatter-cli",
+    "author": {
+        "name": "Seth Holladay",
+        "url": "http://seth-holladay.com",
+        "email": "me@seth-holladay.com"
+    },
+    "scripts": {
+        "test": "xo"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:sholladay/squatter-cli.git"
+    },
+    "bugs": {
+        "url": "https://github.com/sholladay/squatter-cli/issues",
+        "email": "me@seth-holladay.com"
+    },
+    "engines": {
+        "node": ">=7.6"
+    },
+    "license": "MPL-2.0",
+    "bin": {
+        "squatter": "cli.js"
+    },
+    "files": [
+        "index.js",
+        "cli.js"
+    ],
+    "dependencies": {
+        "meow": "^3.7.0",
+        "ora": "^1.3.0",
+        "squatter": "^0.1.0"
+    },
+    "devDependencies": {
+        "eslint-config-tidy": "^0.5.0",
+        "xo": "^0.18.0"
+    },
+    "keywords": [
+        "cli-app",
+        "cli"
+    ],
+    "xo": {
+        "extend": "tidy"
+    }
+}
