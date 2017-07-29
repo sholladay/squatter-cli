@@ -27,13 +27,15 @@ $ squatter --help
     $ squatter foo bar
 ```
 
+Exits with a non-zero status code if one or more of the packages are squatters.
+
 ## Algorithm
 
 See the API for [how it works](https://github.com/sholladay/squatter#algorithm).
 
-## Related
+## API
 
- - [squatter](https://github.com/sholladay/squatter) - API for this module
+See [squatter](https://github.com/sholladay/squatter) to use this programmatically.
 
 ## Contributing
 
